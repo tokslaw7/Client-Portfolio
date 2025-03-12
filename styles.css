@@ -1,7 +1,31 @@
+/* .html,body{
+    padding: 10px;
+    margin-top: 5px;
+} */
+
+
+
 .container {
-    border: 2px solid #eae0e0;
     display: flex;
-  }
+    font-size: 24px;
+}
+
+/* .container > a{
+    flex:1;
+} */
+.container > div{
+    flex:1;
+}
+
+
+
+.aside-bar {
+    /* margin-left: 15px; */
+    border-radius: .3em;
+    margin: 1em;
+    padding:1em;
+  
+}
 
 .social-links-container{
     border: 2px solid rgb(72, 70, 70);
@@ -25,8 +49,11 @@
     display: flex;
     justify-content: space-between;
 }
+
 .info-container{
     align-items: center;
+    border: 3px solid lightgrey;
+    border-radius: 15px;;
 }
 .card-title{
     text-align: center;
@@ -36,6 +63,11 @@
 }
 
 /* Services */
+.service-container{
+    border: 3px solid lightgrey;
+    border-radius: 15px;
+    margin-top: 5px;
+}
 .services-text{
     text-align: center;
 }
@@ -44,8 +76,16 @@
     border-radius: 8px;
 }
 
+
 .footer-container{
-    border: 2px solid pink;
-    padding: 2px;
-    margin:18px;
+    padding: 10px;
+    margin-top: 25px;
+    display: flex;
+    font-size: 24px;
 }
+.footer-container > a{
+    flex:1;
+}
+/* .footer-container .social-links > a{
+    margin-right: 10px;
+} */
