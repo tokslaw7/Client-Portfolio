@@ -13,9 +13,9 @@
 }
 
 
-  .card-img-top{
+.card-img-top{
     aspect-ratio: 3/2;
-  }
+}
 
 .social-links{
     width:42px;
@@ -24,6 +24,20 @@
 .row{
     display: flex;
     justify-content: space-between;
+}
+.info-container{
+    align-items: center;
+}
+.card-title{
+    text-align: center;
+}
+.card-text{
+    align-content: center;
+}
+
+/* Services */
+.services-text{
+    text-align: center;
 }
 .card-services{
     border: 2px solid rgb(39, 38, 38);
