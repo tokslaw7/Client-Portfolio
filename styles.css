@@ -1,0 +1,20 @@
+.container {
+    border: 2px solid #eae0e0;
+    display: flex;
+  }
+.card{
+    width: 18rem;
+}
+
+
+  .card-img-top{
+    aspect-ratio: 3/2;
+  }
+
+.social-links{
+    width:42px;
+    height:42px;
+}
+.row{
+    display: flex;
+}
