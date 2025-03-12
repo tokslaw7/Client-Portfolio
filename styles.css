@@ -2,6 +2,12 @@
     border: 2px solid #eae0e0;
     display: flex;
   }
+
+.social-links-container{
+    border: 2px solid rgb(72, 70, 70);
+    box-shadow: 5px 5px grey;
+    box-sizing: border-box;
+}  
 .card{
     width: 18rem;
 }
@@ -17,4 +23,15 @@
 }
 .row{
     display: flex;
+    justify-content: space-between;
+}
+.card-services{
+    border: 2px solid rgb(39, 38, 38);
+    border-radius: 8px;
+}
+
+.footer-container{
+    border: 2px solid pink;
+    padding: 2px;
+    margin:18px;
 }
