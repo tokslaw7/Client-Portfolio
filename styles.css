@@ -1,13 +1,19 @@
-/* .html,body{
+body{
     padding: 10px;
-    margin-top: 5px;
-} */
+    padding: 0;
+    margin: 10px;
+    height:100vh;
+    display: grid;
+    background-color: #fcdcd8;
+    
+}
 
 
 
 .container {
     display: flex;
     font-size: 24px;
+    color: #EE2677;
 }
 
 /* .container > a{
@@ -22,11 +28,21 @@
 .aside-bar {
     /* margin-left: 15px; */
     border-radius: .3em;
-    margin: 1em;
-    padding:1em;
-  
+    margin: 5em;
+    padding:5em;
+    background: #deb9c2;
+    border-radius: .4rem;
+    max-width: 300px;
 }
-
+/* .aside-bar .card-img-top{
+    border-radius: .7em;
+   
+} */
+.aside-card-title{
+    border: 2px;
+    border-radius: 5px;
+    font-size: 21px;
+}
 .social-links-container{
     border: 2px solid rgb(72, 70, 70);
     box-shadow: 5px 5px grey;
@@ -38,43 +54,80 @@
 
 
 .card-img-top{
-    aspect-ratio: 3/2;
+    /* display: flex; */
+    justify-content: center;
+    border-radius: .7em;
 }
 
 .social-links{
-    width:42px;
-    height:42px;
+    width:32px;
+    height:32px;
 }
 .row{
     display: flex;
     justify-content: space-between;
 }
-
+#flex-container{
+    display: flex;
+}
+/* Info section */
 .info-container{
     align-items: center;
-    border: 3px solid lightgrey;
-    border-radius: 15px;;
+    /* border: 3px solid lightgrey; */
+    border-radius: 15px;
+    margin: 5em;
 }
 .card-title{
     text-align: center;
+    font-size:36px;
 }
 .card-text{
     align-content: center;
+    font-size:18px;
+    font-style: italic;
+    text-align: center;
+    padding:1px;
+}
+.card-body-info{
+    margin:2em;
+}
+.card-body-info > .card-link{
+    padding:2px;
+    margin: 25px;
+    font-size: 20px;
+   
+}
+
+.btn-card-link{
+    padding: 15px;
+    margin-top:10px;
+    font-size: 20px;
+    border-radius: 15px;
+}
+.section-container{
+    display: flex;
 }
 
 /* Services */
 .service-container{
-    border: 3px solid lightgrey;
+    /* border: 3px solid lightgrey; */
     border-radius: 15px;
     margin-top: 5px;
+    margin: 1em;
 }
 .services-text{
     text-align: center;
+    font-size:36px;
 }
 .card-services{
     border: 2px solid rgb(39, 38, 38);
     border-radius: 8px;
+    padding: 1em;
+    margin: 1em;
 }
+
+
+
 
 
 .footer-container{
@@ -82,10 +135,14 @@
     margin-top: 25px;
     display: flex;
     font-size: 24px;
+    /* position: absolute; */
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;  
 }
 .footer-container > a{
     flex:1;
 }
-/* .footer-container .social-links > a{
+.footer-container > a > .social-links {
     margin-right: 10px;
-} */
+}
